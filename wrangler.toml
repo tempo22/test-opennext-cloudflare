@@ -1,0 +1,7 @@
+name = "test"
+
+compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-11-06"
+
+main = ".open-next/worker.ts"
+assets = { directory = ".open-next/assets", binding = "ASSETS" }
